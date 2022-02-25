@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Loot table randomizer by SethBling","color":"green"}]

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 0px;
+        }
+        header{
+            text-align: center;
+            background-color: lightcyan;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 2px 3px black;
+
+        }
+        main{
+            background-color: lightcyan;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 2px 3px black;
+        }
+        footer{
+            background-color: black;
+            color: cornsilk;
+            text-align: center;
+            margin: 0px;
+            padding: 1px;
+        }
+
+        footer > p{
+            text-align: center;
+            margin: 0px;
+        }
+        article{
+            background-color: darkkhaki;
+
+        }
+        article > aside{
+            background-color: darkslategrey;
+            padding: 1px;
+        }
+        nav{
+            background-color: firebrick;
+            padding: 3px;
+            box-shadow: 3px 2px 3px  black;
+
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: floralwhite;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        #quase{
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+
+        #cleiton{
+            text-align: justify ;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">home</a>
+            <a href="">vídeos</a>
+            <a href="">games</a>
+            <a href="">results</a>
+            <a href="">help</a>
+        </nav>
+    </header>
+
+    <main>  
+        <section id="assuntos">
+            <p id="quase">Quem sou eu?</p>
+        </section>
+
+        <section id="Noticias"></section>
+        <article>
+            <h2>Notícias sobre Fortaleza</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sint non eligendi itaque, fugiat recusandae possimus at neque iste perferendis, libero ut illum hic expedita quasi beatae quod vel nemo.</p>
+            <aside>
+                <p id="cleiton">Artigo feito por Cleiton</p>
+            </aside>
+        </article>
+
+        <article>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por SmL7</p>
+    </footer>
+</body>
+</html>
